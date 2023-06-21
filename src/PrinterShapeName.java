@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class PrinterShapeName {
+public class PrinterShapeName{
+    public void printer (Shape shape) {
+        shape.shapeName();
+    }
 }

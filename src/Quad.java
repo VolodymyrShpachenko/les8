@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public class Quad {
+public class Quad extends Shape{
+    @Override
+    public void shapeName() {
+        System.out.println("Это квадрат");
+    }
 }
